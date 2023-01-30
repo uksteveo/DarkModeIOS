@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //IF wanted to do at the app level need to do via PList
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         
         let userInterfaceStyle = traitCollection.userInterfaceStyle
